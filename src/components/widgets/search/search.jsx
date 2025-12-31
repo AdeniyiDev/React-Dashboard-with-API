@@ -108,9 +108,7 @@ export default function Search({ options }) {
       query.trim().length > 0 &&
       query.trim() !== searchSuggestions[0]
     ) {
-      fetch(`/api/search/searchSuggestion?query=${encodeURIComponent(query)}&providerName=${selectedProvider.name}`, {
-        signal: abortController.signal,
-      })
+      fetch("https://jsonplaceholder.typicode.com/posts")
         .then(async (searchSuggestionResult) => {
           const newSearchSuggestions = await searchSuggestionResult.json();
 
