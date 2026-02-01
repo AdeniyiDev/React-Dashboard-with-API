@@ -57,8 +57,8 @@ importers:
         specifier: ^12.1.0
         version: 12.1.0(next@15.5.9(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       ping:
-        specifier: ^0.4.4
-        version: 0.4.4
+        specifier: ^1.0.0
+        version: 1.0.0
       pretty-bytes:
         specifier: ^7.1.0
         version: 7.1.0
@@ -2348,9 +2348,9 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  ping@0.4.4:
-    resolution: {integrity: sha512-56ZMC0j7SCsMMLdOoUg12VZCfj/+ZO+yfOSjaNCRrmZZr6GLbN2X/Ui56T15dI8NhiHckaw5X2pvyfAomanwqQ==}
-    engines: {node: '>=4.0.0'}
+  ping@1.0.0:
+    resolution: {integrity: sha512-3dxdgGtV+7P/EVo42JhkGSomeO/0GGicSz3mI/yK+AI+VGNAOfakw5XfcbGI4IjyBY+ZZwvuRXdhnNF2uliKew==}
+    engines: {node: '>=22.0.0'}
 
   possible-typed-array-names@1.1.0:
     resolution: {integrity: sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg==}
@@ -2822,10 +2822,12 @@ packages:
   tar@7.4.3:
     resolution: {integrity: sha512-5S7Va8hKfV7W5U6g3aYxXmlPoZVAwUMy9AOKyF2fVuZa2UD3qZjg578OrLRt8PcNN1PleVaL/5/yYATNL0ICUw==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
 
   tar@7.5.1:
     resolution: {integrity: sha512-nlGpxf+hv0v7GkWBK2V9spgactGOp0qvfWRxUMjqHyzrt3SgwE48DIv/FhqPHJYLHpgW1opq3nERbz5Anq7n1g==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
 
   telnet-client@2.2.6:
     resolution: {integrity: sha512-ZUYrLsPtQupQww3eSEORDVOb6ztdtKEghya6TVXPo2tg/UQq2pn5rHhvwuUvyYpbnsoqdNY1fyD1GNkXHR8dYA==}
@@ -5410,7 +5412,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  ping@0.4.4: {}
+  ping@1.0.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
